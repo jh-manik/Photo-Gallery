@@ -1,2 +1,2 @@
 # Photo-Gallery
-Module Eighth Project: Photo Gallery App with HTML, CSS, PHP, MySQL
+Module Eight Project: Photo Gallery App with HTML, CSS, PHP, MySQL
