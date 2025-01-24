@@ -1,0 +1,146 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* Default Styles */
+html {
+    background: #e6e9e9;
+    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif, serif, system-ui, -apple-system, BlinkMacSystemFont;
+    color: #212121;
+}
+
+ul { list-style-type: none; }
+
+/* Common Styles */
+.bg-default { background-color: #9b4dca; }
+.text-center { text-align: center; }
+.py-1 { padding: 1em 0; }
+.py-1-5 { padding: 1.5em 0; }
+.py-2 { padding: 2em 0; }
+.py-2-5 { padding: 2.5em 0; }
+.py-3 { padding: 3em 0; }
+.py-3-5 { padding: 3.5em 0; }
+.py-4 { padding: 4em 0; }
+.py-4-5 { padding: 4.5em 0; }
+.py-5 { padding: 5em 0; }
+.flex-container { display: flex; }
+
+hr.heading-underline {
+    margin: 0 auto;
+    border-color: #9b4dca;
+    padding-top: 0.15em;
+}
+
+h3.section-heading {
+    color: #9b4dca;
+    font-size: 2.85rem;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+}
+
+/* App Header Styling */
+header.app-header { box-shadow: 0 0 1px 2px rgba(0, 0, 0, 25%); }
+
+h1.app-title a {
+    color: #f9f9f9;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 30%);
+}
+
+/* Upload Form Styling */
+.upload-heading,
+.gallery-heading { margin-bottom: 2em; }
+.upload-heading .heading-underline { width: 65%; }
+.gallery-heading .heading-underline { width: 40%; }
+
+.upload-form {
+    width: 75%;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+.upload-form input[type=text] {
+    font-size: 1.5rem;
+    transition: all .3s ease-in-out;
+    font-family: 'Quicksand';
+}
+
+.upload-form input[type=text]:hover {
+    border-color: #9b4dca;
+    border-width: 2px;
+}
+
+.upload-form input::file-selector-button {
+    border: none;
+    background-color: #9b4dca;
+    margin-right: 0.5em;
+    padding: 1em 1.25em;
+    border-radius: 0.5em;
+    color: #f9f9f9;
+    font-size: 1.25rem;
+}
+
+.upload-form input::file-selector-button:hover {
+    background-color: #606c76;
+    border-color: #606c76;
+    color: #fff;
+    outline: 0;
+    cursor: pointer;
+}
+
+.upload-form input[type=file] {
+    font-size: 1.75rem;
+    font-family: 'Quicksand';
+}
+
+/* Photo Gallery Styling */
+.gallery-heading { padding-bottom: 2em; }
+
+.gallery-container .gallery-items {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery-item {
+    width: 30%;
+    height: auto;
+    margin-bottom: 1.25em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 45%);
+    border-radius: 0.5em;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 0.5em 0.5em 0 0;
+}
+
+.gallery-item .card-desc { padding-left: 1.5em; }
+.gallery-item .card-desc h4 { font-weight: 400; }
+.gallery-message { color: tomato; }
+
+/* Footer Styling */
+footer.app-footer { background-color: #292929; }
+
+p.footer-text {
+    color: #f9f9f9;
+    padding-top: 1.25em;
+    font-size: 1.75rem;
+}
+
+p.footer-text span.author-name {
+    font-weight: 400;
+    color: #ff4f4f;
+    border-bottom: 1px solid #ff4f4f;
+    padding-bottom: 0.15em;
+    font-size: 1.85rem;
+    cursor: pointer;
+}
+
+p.footer-text i.icon {
+    font-size: 2.5rem;
+    color: tomato;
+}
